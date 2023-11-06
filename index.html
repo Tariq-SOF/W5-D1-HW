@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>your screen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 0px;
+    }
+    
+    .container {
+      max-width: 94%;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      margin-top: 0;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    select {
+      width: 40%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+    }
+    
+    button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+    .nav_par{
+        width: 100%;
+        height: 80px;
+        margin-bottom: 12px;
+        background-color: rgba(0, 0, 0, 0.982);
+        border-style: solid;
+        border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content:space-between;
+      padding-left: 1px;
+    }
+    .container2{
+        max-width: 100%;
+        height: 640px;
+        margin: 20px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        padding-left: 330px;
+        background-color: #ffffff;
+        background-color: #fff;
+        border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          
+    }
+   
+  </style>
+</head>
+<body>
+
+    <nav class="nav_par">
+       <img style="width: 79px; border-radius: 20px; padding-left: 4px;background-color: rgb(206, 243, 206);border-style: solid; border-right-width:20px;" src="https://media.istockphoto.com/id/1410211352/vector/letter-l-logo-set.jpg?s=612x612&w=0&k=20&c=dqQgRId79SyBQ0-WCB1jPAOR8fce7iIyC4QKUhnYCzQ=">
+       <h3 style="color:  rgb(233, 241, 233);font-family: 'Bree Serif', serif; padding-right: 30px; "> your screen</h3>
+    </nav>
+
+  <div class="container">
+    <h3 >is your wepsite device friendly </h3>
+    <input style="border-radius: 5px; border-color: #2d2c2c; border-width: 0.1px;padding: 2px 20px;" type="text" id="input" placeholder="Eenter any wepsite link">
+  </div>
+
+  <div class="container2">
+   <div class="div1">
+
+    <img style="width:59% ;" src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/E/U/142917_1538222364.jpg">
+    <h3>Iphone X</h3>
+    <P>375 X 812</P>
+    <button onclick="IphoneXWindow()"> CHOOSE </button>
+
+   </div>
+
+    <div class="div2" >
+        <img style="width:90% ;" src="https://assets.quzo.co.uk/site/catalogue/full/2022/08/96248635_6019114777.png">
+        <h3>Galaxy Note 10</h3>
+        <P>412 X 869</P>
+        <button onclick="GalaxyNoteWindow()"> CHOOSE </button>
+    </div>
+
+    <div class="div3" >
+        <img style="width:50% ;height: px;" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/IPad_Pro_12.9_3rd_gen_mockup.png">
+        <h3>Ipad pro</h3>
+        <P>1024 X 1366</P>
+        <button onclick="IPadWindow()"> CHOOSE </button>
+    </div>
+
+    <div class="div4">
+        <img style="width:80% ;height: px;" src="https://www.affordablemac.co.uk/wp-content/uploads/2022/04/iMac-27inch-Desktop-Image--600x482.png">
+        <h3>MAC OSX</h3>
+        <P>1920 X 1080</P>
+        <button onclick="MacWindow()"> CHOOSE </button>
+
+        <script src="script.js"> </script>
+
+    </div>
+  </div>
+</body>
+</html>
